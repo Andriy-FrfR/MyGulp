@@ -1,0 +1,17 @@
+body {
+    display: flex;
+}
+
+.hello {
+    font-size: 80px;
+    @media (max-width: 1200px) {
+        font-size: 200px;
+    }
+}
+
+div {
+    background: url(../img/убийство.png);
+    @media (max-width: 1200px) {
+        font-size: 10px;
+    }
+}
